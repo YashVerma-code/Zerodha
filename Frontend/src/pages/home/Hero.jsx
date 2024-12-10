@@ -1,5 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import "../about/about.css"
+
 const Hero = () => {
   return (
     <div className="w-full text-center mb-40">
@@ -14,7 +16,7 @@ const Hero = () => {
           </p>
           <Link
               to={"/signup"}>
-                <button className="bg-blue-400 font-bold text-white p-3 rounded-xl hover:bg-black">Signup Now for free </button>
+                <button className="bg-blue-400 font-bold text-white p-3 rounded-xl hover:bg-black" >Signup Now for free </button>
                 </Link>
         </div>
       </div>

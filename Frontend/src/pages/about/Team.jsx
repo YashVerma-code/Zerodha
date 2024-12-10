@@ -1,4 +1,5 @@
 import React from "react";
+import "./about.css";
 import {Link} from "react-router-dom"
 const Team = () => {
   return (
@@ -12,7 +13,7 @@ const Team = () => {
           <img
             src="media/images/nithinKamath.jpg"
             alt="nithinKamath"
-            className="rounded-full grayscale"
+            className="rounded-full grayscale hoverEffect"
           />
           <h1 className="w-full text-center p-5 text-xl">Nithin Kamath</h1>
           <h1 className="w-full text-center text-base p-2">Founder, CEO</h1>
@@ -48,7 +49,7 @@ const Team = () => {
           <img
             src="media/images/yashVerma.jpg"
             alt="nithinKamath"
-            className="rounded-full "
+            className="rounded-full devImg hoverEffect"
           />
           <h1 className="w-full text-center p-5 text-xl">Yash Verma</h1>
           <h1 className="w-full text-center text-base p-2">Web Developer</h1>

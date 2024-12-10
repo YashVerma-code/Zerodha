@@ -1,0 +1,30 @@
+.devImg{
+    background-color: aquamarine;
+    mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
+
+.logoImg{
+    position: relative;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.hoverEffect{
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.hoverEffect:hover{
+    transform: rotate(360deg);
+}
+
+@keyframes logo {
+    from {
+        left: -240px;
+    }
+    to{
+        left: 0;
+    }
+}
