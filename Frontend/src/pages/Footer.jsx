@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="bg-gray-100 w-full min-h-screen h-fit flex flex-wrap justify-center pb-20 border-t-2"
+      className="bg-gray-100 w-full min-h-screen h-fit flex flex-wrap justify-center pb-24 border-t-2"
       style={{ height: "35rem" }}
     >
       <div className="flex flex-wrap w-2/12 h-3/6 items-baseline m-10">
