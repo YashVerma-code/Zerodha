@@ -15,8 +15,8 @@ const Navbar = () => {
           <img src="media/images/logo.svg" alt="" className="logoImg"/>
         </Link>
       </div>
-      <div className="flex w-full h-full flex-wrap   justify-end">
-        <div className="flex h-full lg:w-4/6 sm:w-5/6 flex-wrap ">
+      <div className="flex w-full h-full flex-wrap justify-end">
+        <div className="flex h-full lg:w-5/6 sm:w-5/6 flex-wrap ">
           <div
             className={`flex w-full h-full flex-wrap items-center justify-end mr-10 space-x-3 text-center optionside ${
               isNavOpen ? "block" : "hidden relative"
@@ -52,6 +52,12 @@ const Navbar = () => {
             >
               Support
             </Link>
+            <Link
+              to={"https://zdashboard.netlify.app/"}
+              className={`hover:text-blue-400  w-1/12 h-full flex items-center justify-center ${location.pathname===`/about`?`text-blue-500 hover:text-blue-500`:`text-black hover:text-blue-500`}`} 
+            >
+              Dashboard
+            </Link>
              <Link
               to={"/signup"}
               className={`hover:text-blue-400 w-1/12 h-full flex items-center justify-center ${location.pathname===`/sihnup`?`text-blue-500 hover:text-blue-500`:`text-black hover:text-blue-500`}`} 
@@ -64,6 +70,7 @@ const Navbar = () => {
             >
               Login
             </Link>
+           
           </div>
         </div>
         <button
