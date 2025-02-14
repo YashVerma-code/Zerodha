@@ -6,7 +6,7 @@ function App() {
   return (
   <>
   <div className='flex flex-wrap w-full h-full border'>
-    <Link to={"http://localhost:5174/"} className='mt-7 w-full h-24 p-5'>
+    <Link to={"https://zerodhapsi.netlify.app/"} className='mt-7 w-full h-24 p-5'>
     <img src="logo.svg" alt="logo" className='w-1/6 h-2/3'/></Link>
     </div>
     </>

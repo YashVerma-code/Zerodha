@@ -8,7 +8,7 @@ const Positions = () => {
   const [positions,setPositions]=useState([]);
 
   useEffect(()=>{
-    axios.get("http://localhost:8080/allPositions").then((data)=>{
+    axios.get("https://zerodha-y7jk.onrender.com/allPositions").then((data)=>{
       setPositions(data.data);
     }).catch((err)=>{
       console.log("Error while Fetching data for positions",err);
